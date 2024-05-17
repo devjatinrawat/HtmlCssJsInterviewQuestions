@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid turquoise;
+    position: relative;
+    right: 20px;
+    bottom: 100px;
+    z-index: 999;
+
+} */
+
+.box{
+border: 2px solid rebeccapurple;
+
+}
+
+.container{
+    border: 2px solid yellowgreen;
+}
+
+.box_two{
+    width: 300px;
+    height: 300px;
+    border: 1px solid khaki;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+
+.child{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    border: 2px solid greenyellow;
+}
